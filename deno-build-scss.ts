@@ -8,7 +8,7 @@
 
 import sass from "https://deno.land/x/denosass/mod.ts";
 import postcss from "https://deno.land/x/postcss/mod.js";
-import { AcceptedPlugin } from "https://deno.land/x/postcss@8.4.16/lib/postcss.d.ts";
+import { AcceptedPlugin } from "https://deno.land/x/postcss/lib/postcss.d.ts";
 import autoprefixer from "https://deno.land/x/postcss_autoprefixer/mod.js";
 
 const file = Deno.args[0];
