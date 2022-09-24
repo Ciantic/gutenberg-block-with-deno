@@ -4,8 +4,8 @@
     "triggerTaskOnSave.restart": false,
     "triggerTaskOnSave.on": true,
     "triggerTaskOnSave.tasks": {
-        "deno ts (current file)": ["*.tsx"],
-        "deno sass (current file)": ["**/*.scss"]
+        "deno ts (current file)": ["src/*.tsx"],
+        "deno sass (current file)": ["src/*.scss"]
     },
     "deno.enable": true,
     "deno.unstable": true,
