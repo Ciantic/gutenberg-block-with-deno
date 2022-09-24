@@ -11,7 +11,7 @@ const CounterComponent: React.FunctionComponent<{ count?: number }> = (props) =>
     );
 };
 
-const counters = document.querySelectorAll<HTMLElement>(".block-counter");
+const counters = document.querySelectorAll<HTMLElement>(".wp-block-mytheme-counter");
 counters.forEach((el: HTMLElement) => {
     const attrs = JSON.parse(el.dataset.attrs as string);
     ReactDOM.render(<CounterComponent {...attrs} />, el);

@@ -5,7 +5,7 @@
     "name": "mytheme/counter",
     "category": "widgets",
     "icon": "universal-access-alt",
-    "editorScript": "file:./src/counter-edit.js",
-    "script": "file:./src/counter.js",
+    "editorScript": "mytheme-counter-edit",
+    "script": "mytheme-counter",
     "style": "file./src/counter.css"
 }
