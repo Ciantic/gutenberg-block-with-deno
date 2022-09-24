@@ -5,8 +5,7 @@
  */
 
 add_action('init', function () {
-    $uri = get_template_directory_uri();
-    $dir = __DIR__;
+    $uri = plugin_dir_url(__FILE__);
 
     wp_register_script(
         'mytheme-counter-edit',
