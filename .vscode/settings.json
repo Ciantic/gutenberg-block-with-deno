@@ -1,0 +1,13 @@
+{
+    "intelephense.format.enable": true,
+    "editor.formatOnSave": true,
+    "triggerTaskOnSave.restart": false,
+    "triggerTaskOnSave.on": true,
+    "triggerTaskOnSave.tasks": {
+        "deno ts (current file)": ["*.tsx"],
+        "deno sass (current file)": ["**/*.scss"]
+    },
+    "deno.enable": true,
+    "deno.unstable": true,
+    "deno.config": "./deno.jsonc"
+}

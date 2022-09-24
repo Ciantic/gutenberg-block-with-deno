@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "deno sass (current file)",
+            "type": "shell",
+            "command": "deno run -A deno-build-scss.ts \"${file}\" \"${fileDirname}/${fileBasenameNoExtension}.css\"",
+            // "problemMatcher": ["$lessc"],
+            "presentation": {
+                "echo": true,
+                "reveal": "never",
+                "focus": false,
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "deno ts (current file)",
+            "type": "shell",
+            "command": "deno run -A deno-build-typescript.ts \"${relativeFile}\" \"${relativeFileDirname}/${fileBasenameNoExtension}.js\""
+        }
+    ]
+}

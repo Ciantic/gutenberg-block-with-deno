@@ -1,0 +1,11 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "title": "Example: Counter",
+    "name": "mytheme/counter",
+    "category": "widgets",
+    "icon": "universal-access-alt",
+    "editorScript": "file:./src/counter-edit.js",
+    "script": "file:./src/counter.js",
+    "style": "file./src/counter.css"
+}

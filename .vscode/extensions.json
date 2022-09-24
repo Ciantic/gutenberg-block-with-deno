@@ -1,0 +1,13 @@
+{
+    "recommendations": [
+        // Build the TS/SCSS file on save:
+        "Gruntfuggly.triggertaskonsave",
+
+        // Deno support
+        "denoland.vscode-deno",
+
+        // SCSS intellisense
+        "mrmlnc.vscode-scss"
+    ],
+    "unwantedRecommendations": []
+}
