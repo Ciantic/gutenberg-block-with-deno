@@ -3,7 +3,7 @@
 Only dependency is Deno, but VSCode is recommended. Before starting VSCode it might be advisable to run:
 
 ```bash
-deno cache --reload ./types.ts
+deno cache --reload ./src/types.d.ts
 ```
 
 Above loads the WordPress types to Deno cache, there is a lot of them and it takes minutes.
